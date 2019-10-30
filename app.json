@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Wanderift",
+    "entryPoint": "./apps/mobile/index.js",
+    "description": "Margarita is an open-source, multi-platform travel app for all major platforms — one code for web, iOS and Android. ",
+    "slug": "Wanderift",
+    "sdkVersion": "31.0.0",
+    "version": "5.40",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#fff"
+    },
+    "ios": {
+      "buildNumber": "3",
+      "bundleIdentifier": "com.wanderift.wanderiftapp"
+    },
+    "android": {
+      "package": "com.wanderift.wanderiftapp"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}
